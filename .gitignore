@@ -1,0 +1,35 @@
+# Node modules for both frontend and backend
+/contacts-backend/node_modules/
+/contacts-frontend/node_modules/
+
+# Build and dist folders for both projects
+/contacts-backend/dist/
+/contacts-frontend/dist/
+/contacts-frontend/build/
+
+# Environment files
+/contacts-backend/.env
+/contacts-frontend/.env
+
+# Log files
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# TypeScript build files
+/contacts-backend/tsconfig.tsbuildinfo
+/contacts-frontend/tsconfig.tsbuildinfo
+
+# Angular specific files
+/contacts-frontend/.angular/cache/
+/contacts-frontend/.angular/cache/*
+
+# Yarn lock files
+/contacts-backend/yarn.lock
+/contacts-frontend/yarn.lock
+
+# IDE settings
+/.idea/
+/.vscode/
